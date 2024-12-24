@@ -19,7 +19,10 @@ const productSchema = new mongoose.Schema({
     productQuantity:{
         type:Number,
     },
-
+    productImage:{
+        type:String,
+        required:true,
+    }
 
 });
 
